@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_one"
+        >
+        <item
+            android:id="@+id/item_bbsbec"
+            android:icon="@drawable/main_achievement"
+            android:title="BBSBEC Official Website" />
+        <item
+            android:id="@+id/item_ptu"
+            android:icon="@drawable/ptu_logo"
+            android:title="PTU Official Website" />
+
+        <item
+            android:id="@+id/item_drcc"
+            android:icon="@drawable/erp"
+            android:title="ERP Portal" />
+
+        <item
+            android:id="@+id/item_ptu_exam"
+            android:icon="@drawable/ptu_logo"
+            android:title="PTU Exam Login" />
+
+        <item
+            android:id="@+id/item_admission"
+            android:icon="@drawable/main_admission"
+            android:title="Admission" />
+
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_two">
+        <item
+            android:id="@+id/item_rate"
+            android:icon="@drawable/logo_rate"
+            android:title="Rate App" />
+        <item
+            android:id="@+id/item_share"
+            android:icon="@drawable/logo_share"
+            android:title="Share App" />
+
+    </group>
+</menu>

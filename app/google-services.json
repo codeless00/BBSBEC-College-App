@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "933959789958",
+    "firebase_url": "https://bbsbec-rajaaryan-default-rtdb.firebaseio.com",
+    "project_id": "bbsbec-rajaaryan",
+    "storage_bucket": "bbsbec-rajaaryan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933959789958:android:cc17c64681fb4897765007",
+        "android_client_info": {
+          "package_name": "com.bbsbec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAChiXcsiNS3oZlFJNf2kTx_zhAAUWtNcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

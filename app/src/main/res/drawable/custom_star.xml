@@ -1,0 +1,28 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background for empty star -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#C0C0C0" /> <!-- Empty star color (e.g., gray) -->
+        </shape>
+    </item>
+
+    <!-- Progress (filled star) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FFD700" /> <!-- Filled star color (e.g., gold) -->
+            </shape>
+        </clip>
+    </item>
+
+    <!-- Secondary progress (optional for half-filled star) -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FFFF00" /> <!-- Half-filled star color (e.g., yellow) -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

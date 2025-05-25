@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BBSBEC" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#162242</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="actionMenuTextColor">#FFFFFF</item>
+
+    </style>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <style name="Theme.BBSBEC" parent="Base.Theme.BBSBEC" />
+
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="Theme.BBSBEC.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BBSBEC.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.BBSBEC.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/rating_normal</item>
+        <item name="colorControlActivated">@color/rating_activated</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/active_task_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    tools:context=".Training">
+
+    <TextView
+        android:id="@+id/text_notask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO ACTIVE TASK"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:textSize="24dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/active_task_recylclerview"
+        android:layout_width="match_parent"
+        android:paddingBottom="70dp"
+        android:clipToPadding="false"
+        android:layout_height="match_parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/active_task_whatsapp_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#25D366"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:elevation="1dp"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="20dp"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="SEND VIA WHATSAPP"/>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

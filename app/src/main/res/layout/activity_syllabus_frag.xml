@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/syllabus_activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SyllabusFragActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/subject_activity_toolbar_main"
+            layout="@layout/appbar_syllabus_frag_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/syllabus_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:background="@color/tab_selected_background_color"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:paddingStart="60dp"
+            android:text="Applied Science Group-A"/>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/syllabus_tablayout"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            app:tabTextColor="@color/white"
+            app:tabBackground="@drawable/tab_background"
+            app:tabIndicatorColor="#F5FF89"
+            android:layout_height="wrap_content"/>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/syllabus_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

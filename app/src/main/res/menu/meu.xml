@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Share"
+        android:icon="@drawable/sharp_add_home_24"
+        android:id="@+id/share"
+        app:showAsAction="never"
+        />
+
+
+
+    <item
+        android:title="Contact Us"
+        android:icon="@drawable/sharp_add_home_24"
+        android:id="@+id/contact"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="Report Error"
+        android:icon="@drawable/sharp_add_home_24"
+        android:id="@+id/delete"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="Terms Of Use"
+        android:icon="@drawable/sharp_add_home_24"
+        android:id="@+id/terms"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="Privacy Policy"
+        android:icon="@drawable/sharp_add_home_24"
+        android:id="@+id/privacy"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>

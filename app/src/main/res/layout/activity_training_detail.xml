@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/training_detail_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E5E1"
+    tools:context=".TrainingDetail">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/training_detail_recylclerview"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="70dp"
+        android:clipToPadding="false"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <WebView
+        android:id="@+id/training_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/training_nointernet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/training_nointernetimage"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            app:lottie_rawRes="@raw/network_error"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"/>
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/training_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/black"
+        android:layout_centerInParent="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/whatsappButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#25D366"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:elevation="1dp"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="20dp"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="CHAT VIA WHATSAPP"/>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

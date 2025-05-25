@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BBSBEC</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_syllabus">Syllabus</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="banner_main_id">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="banner_department_id">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="banner_year_id">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="banner_semester_id">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="banner_syllabus_id">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="banner_subject_id">ca-app-pub-3940256099942544/9214589733</string>
+    <string name="banner_notification_true">ca-app-pub-3940256099942544/9214589711</string>
+    <string name="contributors"><![CDATA[<u>HALL OF FAME</u>]]></string>
+
+</resources>
